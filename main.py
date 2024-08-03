@@ -73,9 +73,25 @@ EXAMPLE_RESPONSE = {
   ]
 }
 
+
+
+
 def load_df_vocab(filename = 'WLASL_v0.3.json'):
     df = pd.read_json(filename)
     return df
+
+import os
+
+def get_mp4_files(video_directory='data/videos'):
+    mp4_files = [f for f in os.listdir(video_directory) if f.endswith('.mp4')]
+    return mp4_files
+
+# Example usage:
+# mp4_files = get_mp4_files()
+# print(f"Total number of MP4 files: {len(mp4_files)}")
+# print("First 10 MP4 files:")
+# for file in mp4_files[:10]:
+#     print(file)
 
 def get_sign_videos(gloss_terms, df_vocab):
     signer_count = {}
@@ -122,8 +138,9 @@ def pick_videos(sentence_videos, signer_ranking):
             selected_video = {}
             if token_videos:  # Check if there are any videos for this token
                 for video in token_videos:
+                    video_name = f"{video['video_id']}.mp4"
                     for signer_id, _ in sorted_signers:
-                        if video['signer_id'] == signer_id:
+                        if video['signer_id'] == signer_id and video_name in MP4_FILES:
                             selected_video = video
                             break
                     if selected_video:
