@@ -1,5 +1,7 @@
-OBAMA_TRANSCRIPT = "It is that fundamental belief. I am my brother's keeper. I am my sister's keeper that makes this country work. It's what allows us to pursue our individual dreams and yet still come together as one American family. E p un out of many one. Now, even as we speak, there are those who are preparing to divide. The spin masters, the negative ad peddle who embrace the politics of anything goes. Well, I say to them tonight, there is not a liberal America and a conservative America. There is the United States of America. There is not a black America and a white America and Latino America and Asian America There's the United States of America. The pun, the pun like to slice and dice our country. Into red states and blue states, red states for Republicans, blue states for Democrats, but I've got news for them too. We worship an awesome god. In the blue states, and we don't like federal agents poking around in our libraries in the red states. We coach little league in the blue states. And, yes, we've got some gay friends in the red states. There are patriots who oppose the war in a iraq. And their patriots who supported the war in iraq. We are one people, All of us pledging allegiance to the stars and stripes. All of us defending the United States of America."
-GLOSS_TERMS = ["book",
+TRANSCRIPT = "Welcome to our basic series. These videos have real English for low level beginners. Our teachers teach you words and expressions, you should know. All of these videos are helpful to improve your English, so never give up. It's important to watch these videos and also do some self study. Check any new words you don't understand in a dictionary, and try to always repeat what the teacher says. These videos can be difficult to understand at first, but keep watching. You will get better, you will improve. Let's get started."
+
+GLOSS_TERMS = [
+    "book",
 "drink",
 "computer",
 "before",
