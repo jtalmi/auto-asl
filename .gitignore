@@ -1,2 +1,12 @@
 data
 .DS_Store
+__pycache__
+*.ipynb_checkpoints
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.csv
+*.pkl
+*.pickle
+*.pickle
