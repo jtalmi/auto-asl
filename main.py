@@ -73,3 +73,106 @@ EXAMPLE_RESPONSE = {
   ]
 }
 
+def load_df_vocab(filename = 'WLASL_v0.3.json'):
+    df = pd.read_json(filename)
+    return df
+
+def get_sign_videos(gloss_terms, df_vocab):
+    signer_count = {}
+    tokens_not_found = set()
+    all_sentence_videos = []  # This will store videos for all sentences
+    for sentence in gloss_terms:
+        sentence_videos = []  # This will store videos for each token in the sentence
+        for token in sentence:
+            token_videos = []
+            try:
+                row = df_vocab.loc[df_vocab['gloss'] == token].iloc[0]
+            except IndexError:
+                tokens_not_found.add(token)
+                token_videos = []  # Empty list for tokens not found
+            else:
+                video_data = row['instances']
+                for video in video_data:
+                    if video['signer_id'] not in signer_count:
+                        signer_count[video['signer_id']] = 0
+                    signer_count[video['signer_id']] += 1
+                token_videos = video_data  # Assign video_data directly to token_videos
+            sentence_videos.append(token_videos)  # Append videos for this token to the sentence
+        all_sentence_videos.append(sentence_videos)  # Append this sentence's videos to all_sentence_videos
+
+    return all_sentence_videos, signer_count
+
+def pick_videos(sentence_videos, signer_ranking):
+    """
+    Expects a list of lists of lists, where each inner list contains video data for each token in the corresponding gloss sentence.
+    Selects the video that corresponds to the signer_id with the highest count available for each token.
+    
+    Args:
+    - sentence_videos: List of lists of lists containing video data for each token in each sentence.
+    - signer_ranking: Dictionary where keys are signer_ids and values are the number of videos with that signer.
+    
+    Returns:
+    - A list of lists, where each inner list contains one selected video for each token in the sentence.
+    """
+    sorted_signers = sorted(signer_ranking.items(), key=lambda x: x[1], reverse=True)
+    sentences = []
+    for sentence in sentence_videos:
+        new_token_videos = []
+        for token_videos in sentence:
+            selected_video = {}
+            if token_videos:  # Check if there are any videos for this token
+                for video in token_videos:
+                    for signer_id, _ in sorted_signers:
+                        if video['signer_id'] == signer_id:
+                            selected_video = video
+                            break
+                    if selected_video:
+                        break
+            new_token_videos.append(selected_video)
+        sentences.append(new_token_videos)
+    return sentences
+
+def combine_videos_and_gloss(selected_videos, gloss_sentences):
+    """
+    Combines the selected token videos with the actual gloss sentences into a large dictionary.
+    
+    Args:
+    - selected_videos: List of lists, where each inner list contains selected videos for each token in a sentence.
+    - gloss_sentences: List of lists, where each inner list contains gloss tokens for a sentence.
+    
+    Returns:
+    - A list of dictionaries, where each dictionary represents a sentence with its gloss tokens and corresponding videos.
+    """
+    combined_data = []
+    
+    for sentence_videos, gloss_sentence in zip(selected_videos, gloss_sentences):
+        sentence_data = {
+            "gloss": [],
+            "videos": []
+        }
+        
+        for token_video, gloss_token in zip(sentence_videos, gloss_sentence):
+            sentence_data["gloss"].append(gloss_token)
+            sentence_data["videos"].append(token_video)
+        
+        combined_data.append(sentence_data)
+    
+    return combined_data
+
+
+if __name__ == "__main__":
+    import pandas as pd 
+    df_vocab = load_df_vocab()
+    sentence_videos, signer_count = get_sign_videos(EXAMPLE_RESPONSE['gloss'], df_vocab)
+    selected_videos = pick_videos(sentence_videos, signer_count)
+    
+    # Combine selected videos with gloss sentences
+    combined_data = combine_videos_and_gloss(selected_videos, EXAMPLE_RESPONSE['gloss'])
+    
+    import json
+    
+    with open('combined_data.json', 'w') as f:
+        json.dump(combined_data, f, indent=4)
+    
+    print("Combined data has been written to 'combined_data.json'")
+

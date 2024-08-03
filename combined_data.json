@@ -1,0 +1,2064 @@
+[
+    {
+        "gloss": [
+            "that",
+            "believe"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1548,
+                "frame_start": 1512,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "57669"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1989,
+                "frame_start": 1933,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "05852"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "me",
+            "brother",
+            "help"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 754,
+                "frame_start": 715,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+                "variation_id": 0,
+                "video_id": "35267"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 4925,
+                "frame_start": 4893,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "07929"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1433,
+                "frame_start": 1387,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "27194"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "me",
+            "sister",
+            "help",
+            "that",
+            "country",
+            "work"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 754,
+                "frame_start": 715,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+                "variation_id": 0,
+                "video_id": "35267"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 4544,
+                "frame_start": 4498,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+                "variation_id": 0,
+                "video_id": "51882"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1433,
+                "frame_start": 1387,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "27194"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1548,
+                "frame_start": 1512,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "57669"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 6656,
+                "frame_start": 6614,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+                "variation_id": 0,
+                "video_id": "13542"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3574,
+                "frame_start": 3525,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "63769"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "that",
+            "allow",
+            "we",
+            "want",
+            "dream",
+            "but",
+            "still",
+            "come",
+            "together",
+            "one",
+            "america",
+            "family"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1548,
+                "frame_start": 1512,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "57669"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1801,
+                "frame_start": 1762,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02041"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 346,
+                "frame_start": 297,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62241"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 4586,
+                "frame_start": 4530,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+                "variation_id": 0,
+                "video_id": "17624"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 5252,
+                "frame_start": 5213,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "08421"
+            },
+            {
+                "bbox": [
+                    50,
+                    9,
+                    219,
+                    192
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 2,
+                "signer_id": 11,
+                "source": "signingsavvy",
+                "split": "val",
+                "url": "https://www.signingsavvy.com/signs/mp4/9/9735.mp4",
+                "variation_id": 0,
+                "video_id": "54787"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 4460,
+                "frame_start": 4421,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+                "variation_id": 0,
+                "video_id": "11839"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3411,
+                "frame_start": 3339,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "58705"
+            },
+            {
+                "bbox": [
+                    334,
+                    42,
+                    876,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "train",
+                "url": "http://aslbricks.org/New/ASL-Videos/one.mp4",
+                "variation_id": 0,
+                "video_id": "69421"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 373,
+                "frame_start": 334,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+                "variation_id": 0,
+                "video_id": "20976"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "many",
+            "one"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 517,
+                "frame_start": 461,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+                "variation_id": 0,
+                "video_id": "34822"
+            },
+            {
+                "bbox": [
+                    334,
+                    42,
+                    876,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "train",
+                "url": "http://aslbricks.org/New/ASL-Videos/one.mp4",
+                "variation_id": 0,
+                "video_id": "69421"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "now",
+            "we",
+            "talk",
+            "some",
+            "prepare",
+            "divide"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1871,
+                "frame_start": 1842,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "38982"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 257,
+                "frame_start": 208,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "56800"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 6421,
+                "frame_start": 6379,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+                "variation_id": 0,
+                "video_id": "53190"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 4670,
+                "frame_start": 4614,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+                "variation_id": 0,
+                "video_id": "44267"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3622,
+                "frame_start": 3590,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+                "variation_id": 0,
+                "video_id": "16922"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "people",
+            "negative",
+            "politics",
+            "anything",
+            "go"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1330,
+                "frame_start": 1254,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+                "variation_id": 0,
+                "video_id": "41920"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 583,
+                "frame_start": 547,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "37909"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3468,
+                "frame_start": 3409,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+                "variation_id": 0,
+                "video_id": "43593"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 926,
+                "frame_start": 887,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=YdHKN_wHZqo",
+                "variation_id": 0,
+                "video_id": "24857"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "me",
+            "tell",
+            "them",
+            "now",
+            "no",
+            "liberal",
+            "america",
+            "conservative",
+            "america"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 754,
+                "frame_start": 715,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+                "variation_id": 0,
+                "video_id": "35267"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 876,
+                "frame_start": 840,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "57273"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1698,
+                "frame_start": 1649,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+                "variation_id": 0,
+                "video_id": "57742"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1871,
+                "frame_start": 1842,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "38982"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1397,
+                "frame_start": 1318,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "38482"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "have",
+            "united",
+            "states",
+            "america"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {},
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "no",
+            "black",
+            "america",
+            "white",
+            "america",
+            "latino",
+            "america",
+            "asia",
+            "america"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1397,
+                "frame_start": 1318,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "38482"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3158,
+                "frame_start": 3109,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "06455"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2158,
+                "frame_start": 2112,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "63191"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            },
+            {
+                "bbox": [
+                    108,
+                    23,
+                    486,
+                    370
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 90,
+                "source": "aslsignbank",
+                "split": "test",
+                "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AS/ASIA-779.mp4",
+                "variation_id": 0,
+                "video_id": "65100"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "have",
+            "united",
+            "states",
+            "america"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {},
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "people",
+            "like",
+            "cut",
+            "country",
+            "red",
+            "blue",
+            "red",
+            "republican",
+            "blue",
+            "democrat",
+            "but",
+            "me",
+            "have",
+            "news"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1330,
+                "frame_start": 1254,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+                "variation_id": 0,
+                "video_id": "41920"
+            },
+            {
+                "bbox": [
+                    344,
+                    36,
+                    876,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "test",
+                "url": "http://aslbricks.org/New/ASL-Videos/like.mp4",
+                "variation_id": 0,
+                "video_id": "69389"
+            },
+            {
+                "bbox": [
+                    58,
+                    27,
+                    272,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 2,
+                "source": "spreadthesign",
+                "split": "val",
+                "url": "https://media.spreadthesign.com/video/mp4/13/91475.mp4",
+                "variation_id": 0,
+                "video_id": "14466"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 6656,
+                "frame_start": 6614,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+                "variation_id": 0,
+                "video_id": "13542"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1169,
+                "frame_start": 1103,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=Qc7Dc_qF5NI",
+                "variation_id": 0,
+                "video_id": "46712"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3512,
+                "frame_start": 3453,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "06822"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1169,
+                "frame_start": 1103,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=Qc7Dc_qF5NI",
+                "variation_id": 0,
+                "video_id": "46712"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3512,
+                "frame_start": 3453,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "06822"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1277,
+                "frame_start": 1218,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+                "variation_id": 0,
+                "video_id": "15447"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 5252,
+                "frame_start": 5213,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "08421"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 754,
+                "frame_start": 715,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+                "variation_id": 0,
+                "video_id": "35267"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "we",
+            "worship",
+            "god",
+            "blue",
+            "state",
+            "we",
+            "no",
+            "like",
+            "government",
+            "look",
+            "library",
+            "red",
+            "state"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1066,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=YdHKN_wHZqo",
+                "variation_id": 0,
+                "video_id": "24909"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3512,
+                "frame_start": 3453,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "06822"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1397,
+                "frame_start": 1318,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+                "variation_id": 0,
+                "video_id": "38482"
+            },
+            {
+                "bbox": [
+                    344,
+                    36,
+                    876,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "test",
+                "url": "http://aslbricks.org/New/ASL-Videos/like.mp4",
+                "variation_id": 0,
+                "video_id": "69389"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1476,
+                "frame_start": 1430,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=YdHKN_wHZqo",
+                "variation_id": 0,
+                "video_id": "25240"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1500,
+                "frame_start": 1428,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=EhkIoTNxwGE",
+                "variation_id": 0,
+                "video_id": "33048"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1169,
+                "frame_start": 1103,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=Qc7Dc_qF5NI",
+                "variation_id": 0,
+                "video_id": "46712"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "we",
+            "coach",
+            "play",
+            "blue",
+            "state"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    42,
+                    15,
+                    239,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 2,
+                "source": "spreadthesign",
+                "split": "train",
+                "url": "https://media.spreadthesign.com/video/mp4/13/91835.mp4",
+                "variation_id": 0,
+                "video_id": "11436"
+            },
+            {
+                "bbox": [
+                    295,
+                    40,
+                    962,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "test",
+                "url": "http://aslbricks.org/New/ASL-Videos/play.mp4",
+                "variation_id": 0,
+                "video_id": "69433"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3512,
+                "frame_start": 3453,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+                "variation_id": 0,
+                "video_id": "06822"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "yes",
+            "we",
+            "have",
+            "gay",
+            "friend",
+            "red",
+            "state"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 174,
+                "frame_start": 105,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=BRO-oYGV224",
+                "variation_id": 0,
+                "video_id": "64275"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {
+                "bbox": [
+                    155,
+                    39,
+                    470,
+                    370
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 106,
+                "source": "aslsignbank",
+                "split": "test",
+                "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GA/GAY-1511.mp4",
+                "variation_id": 0,
+                "video_id": "65804"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 3142,
+                "frame_start": 3083,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+                "variation_id": 0,
+                "video_id": "23567"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1169,
+                "frame_start": 1103,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=Qc7Dc_qF5NI",
+                "variation_id": 0,
+                "video_id": "46712"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "have",
+            "patriot",
+            "oppose",
+            "war",
+            "iraq"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {},
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 413,
+                "frame_start": 347,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62267"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "have",
+            "patriot",
+            "support",
+            "war",
+            "iraq"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 771,
+                "frame_start": 732,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "test",
+                "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+                "variation_id": 0,
+                "video_id": "26757"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 10556,
+                "frame_start": 10514,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+                "variation_id": 0,
+                "video_id": "55970"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 413,
+                "frame_start": 347,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62267"
+            },
+            {}
+        ]
+    },
+    {
+        "gloss": [
+            "we",
+            "one",
+            "people",
+            "all",
+            "we",
+            "pledge",
+            "flag"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    334,
+                    42,
+                    876,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 0,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "train",
+                "url": "http://aslbricks.org/New/ASL-Videos/one.mp4",
+                "variation_id": 0,
+                "video_id": "69421"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1330,
+                "frame_start": 1254,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+                "variation_id": 0,
+                "video_id": "41920"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1728,
+                "frame_start": 1679,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "01912"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1711,
+                "frame_start": 1645,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+                "variation_id": 0,
+                "video_id": "22269"
+            }
+        ]
+    },
+    {
+        "gloss": [
+            "all",
+            "we",
+            "defend",
+            "united",
+            "states",
+            "america"
+        ],
+        "videos": [
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1728,
+                "frame_start": 1679,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "val",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "01912"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 1060,
+                "frame_start": 1014,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+                "variation_id": 0,
+                "video_id": "62583"
+            },
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 997,
+                "frame_start": 965,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+                "variation_id": 0,
+                "video_id": "15209"
+            },
+            {},
+            {},
+            {
+                "bbox": [
+                    0,
+                    0,
+                    360,
+                    240
+                ],
+                "fps": 25,
+                "frame_end": 2255,
+                "frame_start": 2169,
+                "instance_id": 0,
+                "signer_id": 9,
+                "source": "asl5200",
+                "split": "train",
+                "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+                "variation_id": 0,
+                "video_id": "02348"
+            }
+        ]
+    }
+]
