@@ -181,6 +181,10 @@ def main():
                         new_video_path = generate_new_video(combined_data)
                     st.video(new_video_path)
 
+                    # Show new video at ./test.mp4 if combined data and transcript generated successfully
+                    if combined_data and transcript_path:
+                        st.video("./S0P3hjM0DDM_duration_40s_combined.mp4")
+
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
         else:
