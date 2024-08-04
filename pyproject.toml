@@ -16,6 +16,7 @@ yt-dlp = "^2024.8.1"
 python-dotenv = "^1.0.1"
 anthropic = "^0.32.0"
 ipdb = "^0.13.13"
+moviepy = "1.0.3"
 
 
 [build-system]

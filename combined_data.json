@@ -139,8 +139,9 @@
         "gloss": [
             "teacher",
             "teach",
+            "you",
             "word",
-            "sign",
+            "word",
             "you",
             "should",
             "know"
@@ -184,6 +185,24 @@
             },
             {
                 "bbox": [
+                    347,
+                    34,
+                    873,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 1,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "test",
+                "url": "http://aslbricks.org/New/ASL-Videos/you.mp4",
+                "variation_id": 0,
+                "video_id": "69547"
+            },
+            {
+                "bbox": [
                     26,
                     0,
                     292,
@@ -202,21 +221,21 @@
             },
             {
                 "bbox": [
-                    55,
-                    34,
-                    568,
-                    480
+                    26,
+                    0,
+                    292,
+                    240
                 ],
                 "fps": 25,
                 "frame_end": -1,
                 "frame_start": 1,
-                "instance_id": 2,
-                "signer_id": 21,
-                "source": "asldeafined",
+                "instance_id": 6,
+                "signer_id": 42,
+                "source": "spreadthesign",
                 "split": "train",
-                "url": "https://media.asldeafined.com/vocabulary/1532963329.1684.mp4",
+                "url": "https://media.spreadthesign.com/video/mp4/13/51082.mp4",
                 "variation_id": 0,
-                "video_id": "51621"
+                "video_id": "63752"
             },
             {
                 "bbox": [
@@ -515,6 +534,7 @@
             "try",
             "always",
             "repeat",
+            "what",
             "teacher",
             "say"
         ],
@@ -682,6 +702,24 @@
                 "video_id": "02230"
             },
             {},
+            {
+                "bbox": [
+                    155,
+                    34,
+                    1067,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 1,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "val",
+                "url": "http://aslbricks.org/New/ASL-Videos/what.mp4",
+                "variation_id": 1,
+                "video_id": "69531"
+            },
             {
                 "bbox": [
                     38,
@@ -932,28 +970,9 @@
     },
     {
         "gloss": [
-            "we",
             "start"
         ],
         "videos": [
-            {
-                "bbox": [
-                    275,
-                    32,
-                    888,
-                    720
-                ],
-                "fps": 25,
-                "frame_end": -1,
-                "frame_start": 1,
-                "instance_id": 1,
-                "signer_id": 118,
-                "source": "aslbrick",
-                "split": "train",
-                "url": "http://aslbricks.org/New/ASL-Videos/we.mp4",
-                "variation_id": 0,
-                "video_id": "69527"
-            },
             {
                 "bbox": [
                     107,

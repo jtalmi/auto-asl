@@ -1,5 +1,6 @@
 from utils import * 
 import os
+import json 
 
 VIDEO = "https://www.youtube.com/watch?v=S0P3hjM0DDM"
 
@@ -217,5 +218,140 @@ def generate_combined_data():
     print("Combined data has been written to 'combined_data.json'")
     return combined_data
 
+
+def generate_video_paths(json_file):
+    with open(json_file, 'r') as f:
+        data = json.load(f)
+
+    video_paths = []
+
+    for item in data:
+        gloss_list = item['gloss']
+        for video in item['videos']:
+            if 'video_id' in video:
+                video_id = video['video_id']
+                for gloss in gloss_list:
+                    path = os.path.join('sam_videos', f"{gloss}_{video_id}.mp4")
+                    video_paths.append(path)
+
+    return video_paths
+
+from moviepy.editor import VideoFileClip, CompositeVideoClip, vfx
+import os
+import time
+import math
+
+def overlay_videos(base_video_path, overlay_paths, duration=None):
+    total_start_time = time.time()
+
+    # Load the base video
+    base_video = VideoFileClip(base_video_path)
+    
+    # If duration is not specified, use the full length of the base video
+    if duration is None:
+        duration = base_video.duration
+    else:
+        duration = min(duration, base_video.duration)
+    
+    # Calculate the fraction of the base video that will be used
+    fraction_of_base = duration / base_video.duration
+    
+    # Calculate the size for overlay videos (1/4 of the base video size)
+    overlay_width = base_video.w // 4
+    
+    processing_start_time = time.time()
+    
+    # Check durations of overlay videos and filter out any that don't exist
+    existing_overlay_paths = []
+    overlay_durations = []
+    for path in overlay_paths:
+        if os.path.exists(path):
+            clip = VideoFileClip(path)
+            existing_overlay_paths.append(path)
+            overlay_durations.append(clip.duration)
+            clip.close()
+    
+    # Calculate the number of overlay videos to use based on the fraction of the base video
+    total_available_overlays = len(existing_overlay_paths)
+    num_overlays = max(1, min(math.ceil(total_available_overlays * fraction_of_base), total_available_overlays))
+    
+    if num_overlays == 0:
+        print("No overlay videos found.")
+        return
+    
+    # Select a subset of overlay videos
+    selected_overlay_paths = existing_overlay_paths[:num_overlays]
+    selected_overlay_durations = overlay_durations[:num_overlays]
+    
+    # Calculate the duration for each overlay clip
+    clip_duration = base_video.duration / num_overlays
+    
+    # Load and process selected overlay videos
+    overlay_clips = []
+    for i, (path, original_duration) in enumerate(zip(selected_overlay_paths, selected_overlay_durations)):
+        clip = VideoFileClip(path)
+        
+        # Resize the clip to 1/4 of the base video size
+        clip = clip.resize(width=overlay_width)
+        
+        # Remove the black background
+        clip = clip.fx(vfx.mask_color, color=[0, 0, 0], thr=10, s=5)
+        
+        # Calculate the speed factor to adjust the video to fit the clip duration
+        speed_factor = original_duration / clip_duration
+        
+        # Speed up or slow down the clip to fit the calculated duration
+        clip = clip.speedx(factor=speed_factor)
+        
+        # Set the start time for this clip
+        start_time = i * clip_duration
+        clip = clip.set_start(start_time)
+        
+        # Set position (bottom right)
+        clip = clip.set_position(("right", "bottom"))
+        
+        overlay_clips.append(clip)
+    
+    # Create a composite of all overlay clips
+    overlay_composite = CompositeVideoClip(overlay_clips, size=base_video.size)
+    
+    # Overlay the composite clip on the base video
+    final_clip = CompositeVideoClip([base_video, overlay_composite]).subclip(0, duration)
+    
+    processing_end_time = time.time()
+    processing_duration = processing_end_time - processing_start_time
+    
+    # Create 'final_videos' directory if it doesn't exist
+    os.makedirs('final_videos', exist_ok=True)
+    
+    # Generate output path with base video name and duration
+    base_name = os.path.splitext(os.path.basename(base_video_path))[0]
+    output_path = f"final_videos/{base_name}_duration_{int(duration)}s_combined.mp4"
+    
+    # Write the result to a file
+    writing_start_time = time.time()
+    final_clip.write_videofile(output_path, codec="libx264", audio_codec="aac")
+    writing_end_time = time.time()
+    writing_duration = writing_end_time - writing_start_time
+    
+    # Close the clips
+    base_video.close()
+    for clip in overlay_clips:
+        clip.close()
+    overlay_composite.close()
+    final_clip.close()
+
+    total_end_time = time.time()
+    total_duration = total_end_time - total_start_time
+
+    print(f"Video processing took: {processing_duration:.2f} seconds")
+    print(f"Video writing took: {writing_duration:.2f} seconds")
+    print(f"Total video generation took: {total_duration:.2f} seconds")
+    print(f"Final video saved as: {output_path}")
+    print(f"Number of overlay videos used: {num_overlays}")
+    print(f"Fraction of base video used: {fraction_of_base:.2f}")
+    return output_path
+
 if __name__ == "__main__":
-    generate_combined_data()
+    # generate_combined_data()
+    overlay_videos('S0P3hjM0DDM.mp4', generate_video_paths('combined_data.json'), duration=5)
