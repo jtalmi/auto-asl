@@ -1,0 +1,1232 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "67bca6fe-6988-4055-a001-3888397538ba",
+    "sha256": "bc3a473f7a7f23ca43b507410256cdc15ae2b01077b655cba3c75f848e059a68",
+    "created": "2024-08-04T02:26:41.162Z",
+    "duration": 26.582,
+    "channels": 1,
+    "models": [
+      "1ed36bac-f71c-4f3f-a31f-02fd6525c489"
+    ],
+    "model_info": {
+      "1ed36bac-f71c-4f3f-a31f-02fd6525c489": {
+        "name": "general",
+        "version": "2024-01-26.8851",
+        "arch": "base"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "And it's there is there. The world record is gone. It was there for nearly five years until January this year when Yang Yi came along and broke the world record with forty one. And now Kim Y xi from Republic of Korea is the new world record holder. What a week it's been for her here in Bak, We can't forget of course",
+            "confidence": 0.97998047,
+            "words": [
+              {
+                "word": "and",
+                "start": 3.8744886,
+                "end": 4.1141477,
+                "confidence": 0.9868164,
+                "speaker": 0,
+                "speaker_confidence": 0.0,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "it's",
+                "start": 4.1141477,
+                "end": 4.2739205,
+                "confidence": 0.7597656,
+                "speaker": 0,
+                "speaker_confidence": 0.0,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "there",
+                "start": 4.2739205,
+                "end": 4.7739205,
+                "confidence": 0.92529297,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "there"
+              },
+              {
+                "word": "is",
+                "start": 4.833125,
+                "end": 4.9928975,
+                "confidence": 0.6303711,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "there",
+                "start": 4.9928975,
+                "end": 5.072784,
+                "confidence": 0.9716797,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "there."
+              },
+              {
+                "word": "the",
+                "start": 5.232557,
+                "end": 5.392329,
+                "confidence": 0.9628906,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "world",
+                "start": 5.392329,
+                "end": 5.6319885,
+                "confidence": 0.99560547,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "world"
+              },
+              {
+                "word": "record",
+                "start": 5.6319885,
+                "end": 5.951534,
+                "confidence": 0.98291016,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "record"
+              },
+              {
+                "word": "is",
+                "start": 5.951534,
+                "end": 6.191193,
+                "confidence": 0.43725586,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "gone",
+                "start": 6.191193,
+                "end": 6.430852,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "gone."
+              },
+              {
+                "word": "it",
+                "start": 7.9590516,
+                "end": 8.118017,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "was",
+                "start": 8.118017,
+                "end": 8.276983,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 0.55371094,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "there",
+                "start": 8.276983,
+                "end": 8.435948,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 0.35986328,
+                "punctuated_word": "there"
+              },
+              {
+                "word": "for",
+                "start": 8.435948,
+                "end": 8.6743965,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 0.35986328,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "nearly",
+                "start": 8.6743965,
+                "end": 8.912845,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 0.35986328,
+                "punctuated_word": "nearly"
+              },
+              {
+                "word": "five",
+                "start": 8.912845,
+                "end": 9.230776,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.35986328,
+                "punctuated_word": "five"
+              },
+              {
+                "word": "years",
+                "start": 9.230776,
+                "end": 9.707672,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.35986328,
+                "punctuated_word": "years"
+              },
+              {
+                "word": "until",
+                "start": 9.707672,
+                "end": 9.866638,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "until"
+              },
+              {
+                "word": "january",
+                "start": 10.025603,
+                "end": 10.525603,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "January"
+              },
+              {
+                "word": "this",
+                "start": 10.661466,
+                "end": 10.899914,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "year",
+                "start": 10.899914,
+                "end": 11.37681,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "year"
+              },
+              {
+                "word": "when",
+                "start": 11.37681,
+                "end": 11.87681,
+                "confidence": 0.99365234,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "yang",
+                "start": 12.1716385,
+                "end": 12.648535,
+                "confidence": 0.8408203,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "Yang"
+              },
+              {
+                "word": "yi",
+                "start": 12.728018,
+                "end": 13.204914,
+                "confidence": 0.4362793,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "Yi"
+              },
+              {
+                "word": "came",
+                "start": 13.204914,
+                "end": 13.522844,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "came"
+              },
+              {
+                "word": "along",
+                "start": 13.522844,
+                "end": 13.999741,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "along"
+              },
+              {
+                "word": "and",
+                "start": 13.999741,
+                "end": 14.23819,
+                "confidence": 0.98291016,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "broke",
+                "start": 14.23819,
+                "end": 14.317673,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 0.6298828,
+                "punctuated_word": "broke"
+              },
+              {
+                "word": "the",
+                "start": 14.317673,
+                "end": 14.476638,
+                "confidence": 0.9111328,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "world",
+                "start": 14.476638,
+                "end": 14.715086,
+                "confidence": 0.9946289,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "world"
+              },
+              {
+                "word": "record",
+                "start": 14.715086,
+                "end": 15.033017,
+                "confidence": 0.9951172,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "record"
+              },
+              {
+                "word": "with",
+                "start": 15.033017,
+                "end": 15.191982,
+                "confidence": 0.9926758,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "forty",
+                "start": 15.191982,
+                "end": 15.589396,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "forty"
+              },
+              {
+                "word": "one",
+                "start": 15.589396,
+                "end": 15.827845,
+                "confidence": 0.9863281,
+                "speaker": 0,
+                "speaker_confidence": 0.36328125,
+                "punctuated_word": "one."
+              },
+              {
+                "word": "and",
+                "start": 16.638435,
+                "end": 16.877392,
+                "confidence": 0.9951172,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "now",
+                "start": 16.877392,
+                "end": 17.036695,
+                "confidence": 0.99560547,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "now"
+              },
+              {
+                "word": "kim",
+                "start": 17.196001,
+                "end": 17.434958,
+                "confidence": 0.99658203,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "Kim"
+              },
+              {
+                "word": "y",
+                "start": 17.594261,
+                "end": 17.91287,
+                "confidence": 0.42749023,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "Y"
+              },
+              {
+                "word": "xi",
+                "start": 17.91287,
+                "end": 18.41287,
+                "confidence": 0.043548584,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "xi"
+              },
+              {
+                "word": "from",
+                "start": 18.62974,
+                "end": 18.868696,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "republic",
+                "start": 19.107653,
+                "end": 19.426262,
+                "confidence": 0.9604492,
+                "speaker": 0,
+                "speaker_confidence": 0.62402344,
+                "punctuated_word": "Republic"
+              },
+              {
+                "word": "of",
+                "start": 19.426262,
+                "end": 19.585566,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "korea",
+                "start": 19.665218,
+                "end": 20.063478,
+                "confidence": 0.9707031,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "Korea"
+              },
+              {
+                "word": "is",
+                "start": 20.063478,
+                "end": 20.222784,
+                "confidence": 0.9946289,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "the",
+                "start": 20.222784,
+                "end": 20.46174,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "new",
+                "start": 20.46174,
+                "end": 20.939653,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "new"
+              },
+              {
+                "word": "world",
+                "start": 20.939653,
+                "end": 21.17861,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "world"
+              },
+              {
+                "word": "record",
+                "start": 21.17861,
+                "end": 21.656523,
+                "confidence": 0.99316406,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "record"
+              },
+              {
+                "word": "holder",
+                "start": 21.656523,
+                "end": 21.975132,
+                "confidence": 0.95410156,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "holder."
+              },
+              {
+                "word": "what",
+                "start": 22.453045,
+                "end": 22.612349,
+                "confidence": 0.97998047,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "a",
+                "start": 22.612349,
+                "end": 22.771652,
+                "confidence": 0.8461914,
+                "speaker": 0,
+                "speaker_confidence": 0.5859375,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "week",
+                "start": 22.771652,
+                "end": 23.010609,
+                "confidence": 0.9785156,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "week"
+              },
+              {
+                "word": "it's",
+                "start": 23.010609,
+                "end": 23.249565,
+                "confidence": 0.90234375,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "been",
+                "start": 23.249565,
+                "end": 23.488522,
+                "confidence": 0.94091797,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "been"
+              },
+              {
+                "word": "for",
+                "start": 23.488522,
+                "end": 23.647827,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "her",
+                "start": 23.647827,
+                "end": 23.966434,
+                "confidence": 0.98876953,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "her"
+              },
+              {
+                "word": "here",
+                "start": 23.966434,
+                "end": 24.205393,
+                "confidence": 0.8930664,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "here"
+              },
+              {
+                "word": "in",
+                "start": 24.205393,
+                "end": 24.285046,
+                "confidence": 0.7441406,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "bak",
+                "start": 24.444347,
+                "end": 24.762959,
+                "confidence": 0.70166016,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "Bak,"
+              },
+              {
+                "word": "we",
+                "start": 25.567001,
+                "end": 25.727001,
+                "confidence": 0.50683594,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "We"
+              },
+              {
+                "word": "can't",
+                "start": 25.727001,
+                "end": 26.047,
+                "confidence": 0.99121094,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "can't"
+              },
+              {
+                "word": "forget",
+                "start": 26.047,
+                "end": 26.127,
+                "confidence": 0.98876953,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "forget"
+              },
+              {
+                "word": "of",
+                "start": 26.127,
+                "end": 26.287,
+                "confidence": 0.96484375,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "course",
+                "start": 26.287,
+                "end": 26.582,
+                "confidence": 0.9868164,
+                "speaker": 0,
+                "speaker_confidence": 0.60058594,
+                "punctuated_word": "course"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 3.8744886,
+        "end": 6.430852,
+        "confidence": 0.8650635,
+        "channel": 0,
+        "transcript": "And it's there is there. The world record is gone.",
+        "words": [
+          {
+            "word": "and",
+            "start": 3.8744886,
+            "end": 4.1141477,
+            "confidence": 0.9868164,
+            "speaker": 0,
+            "speaker_confidence": 0.0,
+            "punctuated_word": "And"
+          },
+          {
+            "word": "it's",
+            "start": 4.1141477,
+            "end": 4.2739205,
+            "confidence": 0.7597656,
+            "speaker": 0,
+            "speaker_confidence": 0.0,
+            "punctuated_word": "it's"
+          },
+          {
+            "word": "there",
+            "start": 4.2739205,
+            "end": 4.7739205,
+            "confidence": 0.92529297,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "there"
+          },
+          {
+            "word": "is",
+            "start": 4.833125,
+            "end": 4.9928975,
+            "confidence": 0.6303711,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "there",
+            "start": 4.9928975,
+            "end": 5.072784,
+            "confidence": 0.9716797,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "there."
+          },
+          {
+            "word": "the",
+            "start": 5.232557,
+            "end": 5.392329,
+            "confidence": 0.9628906,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "The"
+          },
+          {
+            "word": "world",
+            "start": 5.392329,
+            "end": 5.6319885,
+            "confidence": 0.99560547,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "world"
+          },
+          {
+            "word": "record",
+            "start": 5.6319885,
+            "end": 5.951534,
+            "confidence": 0.98291016,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "record"
+          },
+          {
+            "word": "is",
+            "start": 5.951534,
+            "end": 6.191193,
+            "confidence": 0.43725586,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "gone",
+            "start": 6.191193,
+            "end": 6.430852,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "gone."
+          }
+        ],
+        "speaker": 0,
+        "id": "ef46b223-97cb-4dc5-9495-262ae7dd2a3e"
+      },
+      {
+        "start": 7.9590516,
+        "end": 15.827845,
+        "confidence": 0.96314496,
+        "channel": 0,
+        "transcript": "It was there for nearly five years until January this year when Yang Yi came along and broke the world record with forty one.",
+        "words": [
+          {
+            "word": "it",
+            "start": 7.9590516,
+            "end": 8.118017,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "It"
+          },
+          {
+            "word": "was",
+            "start": 8.118017,
+            "end": 8.276983,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 0.55371094,
+            "punctuated_word": "was"
+          },
+          {
+            "word": "there",
+            "start": 8.276983,
+            "end": 8.435948,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 0.35986328,
+            "punctuated_word": "there"
+          },
+          {
+            "word": "for",
+            "start": 8.435948,
+            "end": 8.6743965,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 0.35986328,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "nearly",
+            "start": 8.6743965,
+            "end": 8.912845,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 0.35986328,
+            "punctuated_word": "nearly"
+          },
+          {
+            "word": "five",
+            "start": 8.912845,
+            "end": 9.230776,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.35986328,
+            "punctuated_word": "five"
+          },
+          {
+            "word": "years",
+            "start": 9.230776,
+            "end": 9.707672,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.35986328,
+            "punctuated_word": "years"
+          },
+          {
+            "word": "until",
+            "start": 9.707672,
+            "end": 9.866638,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "until"
+          },
+          {
+            "word": "january",
+            "start": 10.025603,
+            "end": 10.525603,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "January"
+          },
+          {
+            "word": "this",
+            "start": 10.661466,
+            "end": 10.899914,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "this"
+          },
+          {
+            "word": "year",
+            "start": 10.899914,
+            "end": 11.37681,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "year"
+          },
+          {
+            "word": "when",
+            "start": 11.37681,
+            "end": 11.87681,
+            "confidence": 0.99365234,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "when"
+          },
+          {
+            "word": "yang",
+            "start": 12.1716385,
+            "end": 12.648535,
+            "confidence": 0.8408203,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "Yang"
+          },
+          {
+            "word": "yi",
+            "start": 12.728018,
+            "end": 13.204914,
+            "confidence": 0.4362793,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "Yi"
+          },
+          {
+            "word": "came",
+            "start": 13.204914,
+            "end": 13.522844,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "came"
+          },
+          {
+            "word": "along",
+            "start": 13.522844,
+            "end": 13.999741,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "along"
+          },
+          {
+            "word": "and",
+            "start": 13.999741,
+            "end": 14.23819,
+            "confidence": 0.98291016,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "broke",
+            "start": 14.23819,
+            "end": 14.317673,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 0.6298828,
+            "punctuated_word": "broke"
+          },
+          {
+            "word": "the",
+            "start": 14.317673,
+            "end": 14.476638,
+            "confidence": 0.9111328,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "world",
+            "start": 14.476638,
+            "end": 14.715086,
+            "confidence": 0.9946289,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "world"
+          },
+          {
+            "word": "record",
+            "start": 14.715086,
+            "end": 15.033017,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "record"
+          },
+          {
+            "word": "with",
+            "start": 15.033017,
+            "end": 15.191982,
+            "confidence": 0.9926758,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "with"
+          },
+          {
+            "word": "forty",
+            "start": 15.191982,
+            "end": 15.589396,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "forty"
+          },
+          {
+            "word": "one",
+            "start": 15.589396,
+            "end": 15.827845,
+            "confidence": 0.9863281,
+            "speaker": 0,
+            "speaker_confidence": 0.36328125,
+            "punctuated_word": "one."
+          }
+        ],
+        "speaker": 0,
+        "id": "0d006127-4760-47c5-b1f3-0c5baa52d03e"
+      },
+      {
+        "start": 16.638435,
+        "end": 24.762959,
+        "confidence": 0.8918689,
+        "channel": 0,
+        "transcript": "And now Kim Y xi from Republic of Korea is the new world record holder. What a week it's been for her here in Bak,",
+        "words": [
+          {
+            "word": "and",
+            "start": 16.638435,
+            "end": 16.877392,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "And"
+          },
+          {
+            "word": "now",
+            "start": 16.877392,
+            "end": 17.036695,
+            "confidence": 0.99560547,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "now"
+          },
+          {
+            "word": "kim",
+            "start": 17.196001,
+            "end": 17.434958,
+            "confidence": 0.99658203,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "Kim"
+          },
+          {
+            "word": "y",
+            "start": 17.594261,
+            "end": 17.91287,
+            "confidence": 0.42749023,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "Y"
+          },
+          {
+            "word": "xi",
+            "start": 17.91287,
+            "end": 18.41287,
+            "confidence": 0.043548584,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "xi"
+          },
+          {
+            "word": "from",
+            "start": 18.62974,
+            "end": 18.868696,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "from"
+          },
+          {
+            "word": "republic",
+            "start": 19.107653,
+            "end": 19.426262,
+            "confidence": 0.9604492,
+            "speaker": 0,
+            "speaker_confidence": 0.62402344,
+            "punctuated_word": "Republic"
+          },
+          {
+            "word": "of",
+            "start": 19.426262,
+            "end": 19.585566,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "of"
+          },
+          {
+            "word": "korea",
+            "start": 19.665218,
+            "end": 20.063478,
+            "confidence": 0.9707031,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "Korea"
+          },
+          {
+            "word": "is",
+            "start": 20.063478,
+            "end": 20.222784,
+            "confidence": 0.9946289,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "the",
+            "start": 20.222784,
+            "end": 20.46174,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "new",
+            "start": 20.46174,
+            "end": 20.939653,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "new"
+          },
+          {
+            "word": "world",
+            "start": 20.939653,
+            "end": 21.17861,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "world"
+          },
+          {
+            "word": "record",
+            "start": 21.17861,
+            "end": 21.656523,
+            "confidence": 0.99316406,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "record"
+          },
+          {
+            "word": "holder",
+            "start": 21.656523,
+            "end": 21.975132,
+            "confidence": 0.95410156,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "holder."
+          },
+          {
+            "word": "what",
+            "start": 22.453045,
+            "end": 22.612349,
+            "confidence": 0.97998047,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "What"
+          },
+          {
+            "word": "a",
+            "start": 22.612349,
+            "end": 22.771652,
+            "confidence": 0.8461914,
+            "speaker": 0,
+            "speaker_confidence": 0.5859375,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "week",
+            "start": 22.771652,
+            "end": 23.010609,
+            "confidence": 0.9785156,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "week"
+          },
+          {
+            "word": "it's",
+            "start": 23.010609,
+            "end": 23.249565,
+            "confidence": 0.90234375,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "it's"
+          },
+          {
+            "word": "been",
+            "start": 23.249565,
+            "end": 23.488522,
+            "confidence": 0.94091797,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "been"
+          },
+          {
+            "word": "for",
+            "start": 23.488522,
+            "end": 23.647827,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "her",
+            "start": 23.647827,
+            "end": 23.966434,
+            "confidence": 0.98876953,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "her"
+          },
+          {
+            "word": "here",
+            "start": 23.966434,
+            "end": 24.205393,
+            "confidence": 0.8930664,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "here"
+          },
+          {
+            "word": "in",
+            "start": 24.205393,
+            "end": 24.285046,
+            "confidence": 0.7441406,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "in"
+          },
+          {
+            "word": "bak",
+            "start": 24.444347,
+            "end": 24.762959,
+            "confidence": 0.70166016,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "Bak,"
+          }
+        ],
+        "speaker": 0,
+        "id": "072112e7-c636-4aa9-a770-5f8148fee81b"
+      },
+      {
+        "start": 25.567001,
+        "end": 26.582,
+        "confidence": 0.8876953,
+        "channel": 0,
+        "transcript": "We can't forget of course",
+        "words": [
+          {
+            "word": "we",
+            "start": 25.567001,
+            "end": 25.727001,
+            "confidence": 0.50683594,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "We"
+          },
+          {
+            "word": "can't",
+            "start": 25.727001,
+            "end": 26.047,
+            "confidence": 0.99121094,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "can't"
+          },
+          {
+            "word": "forget",
+            "start": 26.047,
+            "end": 26.127,
+            "confidence": 0.98876953,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "forget"
+          },
+          {
+            "word": "of",
+            "start": 26.127,
+            "end": 26.287,
+            "confidence": 0.96484375,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "of"
+          },
+          {
+            "word": "course",
+            "start": 26.287,
+            "end": 26.582,
+            "confidence": 0.9868164,
+            "speaker": 0,
+            "speaker_confidence": 0.60058594,
+            "punctuated_word": "course"
+          }
+        ],
+        "speaker": 0,
+        "id": "04cc158b-5321-4586-900f-1ab73d877dca"
+      }
+    ]
+  }
+}
