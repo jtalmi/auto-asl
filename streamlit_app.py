@@ -181,13 +181,13 @@ def main():
                     # Show new video at ./test.mp4 if combined data and transcript generated successfully
                     if combined_data and transcript_path:
                         # Usage
-                        # with st.spinner("Generating new video..."):
-                        #     base_video_path = 'S0P3hjM0DDM.mp4'  # Make sure to provide the correct path
-                        #     overlay_paths = generate_video_paths('combined_data.json')  # Your function from the previous answer
-                        #     user_duration = 5  
-                        #     output_path = overlay_videos(base_video_path, overlay_paths, duration=user_duration)
-                        #     st.video(output_path)
-                         st.video("./S0P3hjM0DDM_duration_40s_combined.mp4")
+                        with st.spinner("Generating new video..."):
+                            base_video_path = 'S0P3hjM0DDM.mp4'  # Make sure to provide the correct path
+                            overlay_paths = generate_video_paths('combined_data.json')  # Your function from the previous answer
+                            user_duration = None
+                            output_path = overlay_videos(base_video_path, overlay_paths, duration=user_duration)
+                            st.video(output_path)
+                        #st.video("./S0P3hjM0DDM_duration_40s_combined.mp4")
 
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")

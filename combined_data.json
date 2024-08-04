@@ -141,7 +141,7 @@
             "teach",
             "you",
             "word",
-            "word",
+            "sign",
             "you",
             "should",
             "know"
@@ -221,21 +221,21 @@
             },
             {
                 "bbox": [
-                    26,
-                    0,
-                    292,
-                    240
+                    55,
+                    34,
+                    568,
+                    480
                 ],
                 "fps": 25,
                 "frame_end": -1,
                 "frame_start": 1,
-                "instance_id": 6,
-                "signer_id": 42,
-                "source": "spreadthesign",
+                "instance_id": 2,
+                "signer_id": 21,
+                "source": "asldeafined",
                 "split": "train",
-                "url": "https://media.spreadthesign.com/video/mp4/13/51082.mp4",
+                "url": "https://media.asldeafined.com/vocabulary/1532963329.1684.mp4",
                 "variation_id": 0,
-                "video_id": "63752"
+                "video_id": "51621"
             },
             {
                 "bbox": [
@@ -886,6 +886,7 @@
         "gloss": [
             "you",
             "will",
+            "become",
             "better",
             "you",
             "will",
@@ -911,6 +912,24 @@
                 "video_id": "69547"
             },
             {},
+            {
+                "bbox": [
+                    700,
+                    141,
+                    1526,
+                    1080
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 3,
+                "signer_id": 31,
+                "source": "signschool",
+                "split": "val",
+                "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Become-4TPPOZK2IHU.mp4",
+                "variation_id": 0,
+                "video_id": "05616"
+            },
             {
                 "bbox": [
                     179,
@@ -970,9 +989,28 @@
     },
     {
         "gloss": [
+            "let",
             "start"
         ],
         "videos": [
+            {
+                "bbox": [
+                    127,
+                    0,
+                    559,
+                    480
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 1,
+                "signer_id": 13,
+                "source": "asldeafined",
+                "split": "val",
+                "url": "https://media.asldeafined.com/vocabulary/1468711173.5413.mp4",
+                "variation_id": 0,
+                "video_id": "32911"
+            },
             {
                 "bbox": [
                     107,

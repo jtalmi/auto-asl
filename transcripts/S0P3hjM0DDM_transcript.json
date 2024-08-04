@@ -1,9 +1,9 @@
 {
   "metadata": {
     "transaction_key": "deprecated",
-    "request_id": "9638d0e5-54a2-4425-b64b-023ac70add33",
+    "request_id": "a729f9e5-ee73-49c6-a2e5-b64ffd724ebe",
     "sha256": "8b1491ac2864d8b504021136d118faed36d2d034ccc701675418d3ddf22c0bf4",
-    "created": "2024-08-04T02:39:42.546Z",
+    "created": "2024-08-04T02:55:55.585Z",
     "duration": 45.37175,
     "channels": 1,
     "models": [
@@ -56,7 +56,7 @@
                 "word": "basic",
                 "start": 4.2799997,
                 "end": 4.7799997,
-                "confidence": 0.8647461,
+                "confidence": 0.86328125,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "basic"
@@ -92,7 +92,7 @@
                 "word": "have",
                 "start": 6.68,
                 "end": 6.92,
-                "confidence": 0.9946289,
+                "confidence": 0.9941406,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "have"
@@ -137,7 +137,7 @@
                 "word": "level",
                 "start": 8.76,
                 "end": 9.26,
-                "confidence": 0.99365234,
+                "confidence": 0.9941406,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "level"
@@ -146,7 +146,7 @@
                 "word": "beginners",
                 "start": 9.32,
                 "end": 9.559999,
-                "confidence": 0.92041016,
+                "confidence": 0.9199219,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "beginners."
@@ -164,7 +164,7 @@
                 "word": "teachers",
                 "start": 10.84836,
                 "end": 11.166393,
-                "confidence": 0.85253906,
+                "confidence": 0.8540039,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "teachers"
@@ -182,7 +182,7 @@
                 "word": "you",
                 "start": 11.404918,
                 "end": 11.643442,
-                "confidence": 0.9536133,
+                "confidence": 0.95458984,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "you"
@@ -236,7 +236,7 @@
                 "word": "know",
                 "start": 14.028688,
                 "end": 14.267212,
-                "confidence": 0.98779297,
+                "confidence": 0.98828125,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "know."
@@ -272,7 +272,7 @@
                 "word": "videos",
                 "start": 15.69836,
                 "end": 16.17541,
-                "confidence": 0.99560547,
+                "confidence": 0.9951172,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "videos"
@@ -335,7 +335,7 @@
                 "word": "so",
                 "start": 18.481148,
                 "end": 18.719671,
-                "confidence": 0.98828125,
+                "confidence": 0.98876953,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "so"
@@ -470,7 +470,7 @@
                 "word": "study",
                 "start": 23.75541,
                 "end": 24.074318,
-                "confidence": 0.9560547,
+                "confidence": 0.95654297,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "study."
@@ -542,7 +542,7 @@
                 "word": "in",
                 "start": 27.024227,
                 "end": 27.183681,
-                "confidence": 0.9316406,
+                "confidence": 0.9326172,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "in"
@@ -551,7 +551,7 @@
                 "word": "a",
                 "start": 27.183681,
                 "end": 27.50259,
-                "confidence": 0.93603516,
+                "confidence": 0.93652344,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "a"
@@ -632,7 +632,7 @@
                 "word": "teacher",
                 "start": 31.08938,
                 "end": 31.327217,
-                "confidence": 0.98876953,
+                "confidence": 0.98828125,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "teacher"
@@ -722,7 +722,7 @@
                 "word": "first",
                 "start": 35.291134,
                 "end": 35.608246,
-                "confidence": 0.99902344,
+                "confidence": 0.99853516,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "first,"
@@ -731,7 +731,7 @@
                 "word": "but",
                 "start": 36.33771,
                 "end": 36.576187,
-                "confidence": 0.9970703,
+                "confidence": 0.9975586,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "but"
@@ -740,7 +740,7 @@
                 "word": "keep",
                 "start": 36.576187,
                 "end": 36.81466,
-                "confidence": 0.99658203,
+                "confidence": 0.9970703,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "keep"
@@ -758,7 +758,7 @@
                 "word": "you",
                 "start": 37.76856,
                 "end": 38.007034,
-                "confidence": 0.99072266,
+                "confidence": 0.9902344,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "You"
@@ -767,7 +767,7 @@
                 "word": "will",
                 "start": 38.007034,
                 "end": 38.245506,
-                "confidence": 0.9658203,
+                "confidence": 0.96875,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "will"
@@ -776,7 +776,7 @@
                 "word": "get",
                 "start": 38.245506,
                 "end": 38.483982,
-                "confidence": 0.9946289,
+                "confidence": 0.99560547,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "get"
@@ -785,7 +785,7 @@
                 "word": "better",
                 "start": 38.483982,
                 "end": 38.80195,
-                "confidence": 0.99658203,
+                "confidence": 0.9970703,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "better,"
@@ -794,7 +794,7 @@
                 "word": "you",
                 "start": 39.35839,
                 "end": 39.596863,
-                "confidence": 0.98779297,
+                "confidence": 0.98828125,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "you"
@@ -803,7 +803,7 @@
                 "word": "will",
                 "start": 39.596863,
                 "end": 39.994324,
-                "confidence": 0.9580078,
+                "confidence": 0.9614258,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "will"
@@ -821,7 +821,7 @@
                 "word": "let's",
                 "start": 41.107204,
                 "end": 41.345676,
-                "confidence": 0.99658203,
+                "confidence": 0.9970703,
                 "speaker": 0,
                 "speaker_confidence": 1.0,
                 "punctuated_word": "Let's"
@@ -853,7 +853,7 @@
       {
         "start": 3.32,
         "end": 5.24,
-        "confidence": 0.97021484,
+        "confidence": 0.9699219,
         "channel": 0,
         "transcript": "Welcome to our basic series.",
         "words": [
@@ -888,7 +888,7 @@
             "word": "basic",
             "start": 4.2799997,
             "end": 4.7799997,
-            "confidence": 0.8647461,
+            "confidence": 0.86328125,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "basic"
@@ -904,12 +904,12 @@
           }
         ],
         "speaker": 0,
-        "id": "305c83f0-db54-4e24-a751-e8b520b60591"
+        "id": "c6d3c3ad-5e15-44dc-ba09-2c002b370856"
       },
       {
         "start": 5.8799996,
         "end": 9.559999,
-        "confidence": 0.9871419,
+        "confidence": 0.98708767,
         "channel": 0,
         "transcript": "These videos have real English for low level beginners.",
         "words": [
@@ -935,7 +935,7 @@
             "word": "have",
             "start": 6.68,
             "end": 6.92,
-            "confidence": 0.9946289,
+            "confidence": 0.9941406,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "have"
@@ -980,7 +980,7 @@
             "word": "level",
             "start": 8.76,
             "end": 9.26,
-            "confidence": 0.99365234,
+            "confidence": 0.9941406,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "level"
@@ -989,19 +989,19 @@
             "word": "beginners",
             "start": 9.32,
             "end": 9.559999,
-            "confidence": 0.92041016,
+            "confidence": 0.9199219,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "beginners."
           }
         ],
         "speaker": 0,
-        "id": "121fbc09-dd07-46e4-8052-210053dee9d4"
+        "id": "e1fe627c-4f85-4134-82d2-6dc02e3fbbe7"
       },
       {
         "start": 10.450819,
         "end": 13.07459,
-        "confidence": 0.9204799,
+        "confidence": 0.9208287,
         "channel": 0,
         "transcript": "Our teachers teach you words and expressions,",
         "words": [
@@ -1018,7 +1018,7 @@
             "word": "teachers",
             "start": 10.84836,
             "end": 11.166393,
-            "confidence": 0.85253906,
+            "confidence": 0.8540039,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "teachers"
@@ -1036,7 +1036,7 @@
             "word": "you",
             "start": 11.404918,
             "end": 11.643442,
-            "confidence": 0.9536133,
+            "confidence": 0.95458984,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "you"
@@ -1070,12 +1070,12 @@
           }
         ],
         "speaker": 0,
-        "id": "8c5b8684-7de9-48c2-864d-dc02ed94a5d3"
+        "id": "1cb1ecd0-616d-43d1-97ed-c326f4f46430"
       },
       {
         "start": 13.631147,
         "end": 14.267212,
-        "confidence": 0.99316406,
+        "confidence": 0.99332684,
         "channel": 0,
         "transcript": "you should know.",
         "words": [
@@ -1101,14 +1101,14 @@
             "word": "know",
             "start": 14.028688,
             "end": 14.267212,
-            "confidence": 0.98779297,
+            "confidence": 0.98828125,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "know."
           }
         ],
         "speaker": 0,
-        "id": "595ac65c-8c11-4a32-8127-89a8dc4b5d01"
+        "id": "ffc74d7e-9614-4f2c-a110-1cdbc8b74537"
       },
       {
         "start": 15.062294,
@@ -1148,7 +1148,7 @@
             "word": "videos",
             "start": 15.69836,
             "end": 16.17541,
-            "confidence": 0.99560547,
+            "confidence": 0.9951172,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "videos"
@@ -1211,7 +1211,7 @@
             "word": "so",
             "start": 18.481148,
             "end": 18.719671,
-            "confidence": 0.98828125,
+            "confidence": 0.98876953,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "so"
@@ -1245,12 +1245,12 @@
           }
         ],
         "speaker": 0,
-        "id": "703aab10-2964-46ff-bd19-d83239fe21c5"
+        "id": "767c6228-e8ce-49c6-bf20-8f4551e97219"
       },
       {
         "start": 19.9285,
         "end": 24.074318,
-        "confidence": 0.9950765,
+        "confidence": 0.9951172,
         "channel": 0,
         "transcript": "It's important to watch these videos and also do some self study.",
         "words": [
@@ -1357,19 +1357,19 @@
             "word": "study",
             "start": 23.75541,
             "end": 24.074318,
-            "confidence": 0.9560547,
+            "confidence": 0.95654297,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "study."
           }
         ],
         "speaker": 0,
-        "id": "971e5453-7a98-4153-a9fa-a266182ef292"
+        "id": "5f560475-da38-49f5-ade8-61483041b622"
       },
       {
         "start": 24.712135,
         "end": 27.821499,
-        "confidence": 0.9849121,
+        "confidence": 0.9850586,
         "channel": 0,
         "transcript": "Check any new words you don't understand in a dictionary,",
         "words": [
@@ -1440,7 +1440,7 @@
             "word": "in",
             "start": 27.024227,
             "end": 27.183681,
-            "confidence": 0.9316406,
+            "confidence": 0.9326172,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "in"
@@ -1449,7 +1449,7 @@
             "word": "a",
             "start": 27.183681,
             "end": 27.50259,
-            "confidence": 0.93603516,
+            "confidence": 0.93652344,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "a"
@@ -1465,12 +1465,12 @@
           }
         ],
         "speaker": 0,
-        "id": "d2eeea96-5eef-4232-9b3a-c296de5a7fb1"
+        "id": "11a790cd-0b21-45ad-9cc0-7f411e3f2da1"
       },
       {
         "start": 28.393917,
         "end": 31.64433,
-        "confidence": 0.99679905,
+        "confidence": 0.9967448,
         "channel": 0,
         "transcript": "and try to always repeat what the teacher says.",
         "words": [
@@ -1541,7 +1541,7 @@
             "word": "teacher",
             "start": 31.08938,
             "end": 31.327217,
-            "confidence": 0.98876953,
+            "confidence": 0.98828125,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "teacher"
@@ -1557,12 +1557,12 @@
           }
         ],
         "speaker": 0,
-        "id": "7c6acc39-9d93-49c7-b327-0be1c992be7e"
+        "id": "12a00207-471c-40fe-b115-c10b19ea4069"
       },
       {
         "start": 32.51639,
         "end": 35.608246,
-        "confidence": 0.9988064,
+        "confidence": 0.9987522,
         "channel": 0,
         "transcript": "These videos can be difficult to understand at first,",
         "words": [
@@ -1642,19 +1642,19 @@
             "word": "first",
             "start": 35.291134,
             "end": 35.608246,
-            "confidence": 0.99902344,
+            "confidence": 0.99853516,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "first,"
           }
         ],
         "speaker": 0,
-        "id": "33ee1737-f1eb-4deb-89eb-046126d5024d"
+        "id": "bcd6f2c0-618b-4e96-8940-b9565ed30747"
       },
       {
         "start": 36.33771,
         "end": 37.21212,
-        "confidence": 0.9967448,
+        "confidence": 0.9970703,
         "channel": 0,
         "transcript": "but keep watching.",
         "words": [
@@ -1662,7 +1662,7 @@
             "word": "but",
             "start": 36.33771,
             "end": 36.576187,
-            "confidence": 0.9970703,
+            "confidence": 0.9975586,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "but"
@@ -1671,7 +1671,7 @@
             "word": "keep",
             "start": 36.576187,
             "end": 36.81466,
-            "confidence": 0.99658203,
+            "confidence": 0.9970703,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "keep"
@@ -1687,12 +1687,12 @@
           }
         ],
         "speaker": 0,
-        "id": "f8d9ebff-376d-4e63-8b2e-ad764e6d69f0"
+        "id": "5aeadce0-b2e9-4734-8695-72be3519d190"
       },
       {
         "start": 37.76856,
         "end": 38.80195,
-        "confidence": 0.9869385,
+        "confidence": 0.98791504,
         "channel": 0,
         "transcript": "You will get better,",
         "words": [
@@ -1700,7 +1700,7 @@
             "word": "you",
             "start": 37.76856,
             "end": 38.007034,
-            "confidence": 0.99072266,
+            "confidence": 0.9902344,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "You"
@@ -1709,7 +1709,7 @@
             "word": "will",
             "start": 38.007034,
             "end": 38.245506,
-            "confidence": 0.9658203,
+            "confidence": 0.96875,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "will"
@@ -1718,7 +1718,7 @@
             "word": "get",
             "start": 38.245506,
             "end": 38.483982,
-            "confidence": 0.9946289,
+            "confidence": 0.99560547,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "get"
@@ -1727,19 +1727,19 @@
             "word": "better",
             "start": 38.483982,
             "end": 38.80195,
-            "confidence": 0.99658203,
+            "confidence": 0.9970703,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "better,"
           }
         ],
         "speaker": 0,
-        "id": "44ae9a7d-e361-491e-ae70-bc1f8aacc170"
+        "id": "4d5a6eca-4f08-421a-b9c1-e5e33679ac71"
       },
       {
         "start": 39.35839,
         "end": 40.312286,
-        "confidence": 0.9814453,
+        "confidence": 0.9827474,
         "channel": 0,
         "transcript": "you will improve.",
         "words": [
@@ -1747,7 +1747,7 @@
             "word": "you",
             "start": 39.35839,
             "end": 39.596863,
-            "confidence": 0.98779297,
+            "confidence": 0.98828125,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "you"
@@ -1756,7 +1756,7 @@
             "word": "will",
             "start": 39.596863,
             "end": 39.994324,
-            "confidence": 0.9580078,
+            "confidence": 0.9614258,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "will"
@@ -1772,12 +1772,12 @@
           }
         ],
         "speaker": 0,
-        "id": "0198fe0f-9a87-4747-8188-fd4edd08c0ef"
+        "id": "c99d234e-1444-4d80-ae3e-1b2730acd944"
       },
       {
         "start": 41.107204,
         "end": 41.98161,
-        "confidence": 0.99820966,
+        "confidence": 0.9983724,
         "channel": 0,
         "transcript": "Let's get started.",
         "words": [
@@ -1785,7 +1785,7 @@
             "word": "let's",
             "start": 41.107204,
             "end": 41.345676,
-            "confidence": 0.99658203,
+            "confidence": 0.9970703,
             "speaker": 0,
             "speaker_confidence": 1.0,
             "punctuated_word": "Let's"
@@ -1810,7 +1810,7 @@
           }
         ],
         "speaker": 0,
-        "id": "d9306ebc-ef9c-40a9-b3d0-c924409c3ccd"
+        "id": "1e2efc68-3a89-485e-bafa-62657ad06c39"
       }
     ]
   }

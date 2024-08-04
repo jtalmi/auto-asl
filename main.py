@@ -1,6 +1,13 @@
 from utils import * 
 import os
 import json 
+from moviepy.editor import VideoFileClip, CompositeVideoClip, vfx
+import moviepy.video.fx.all as vfx
+from PIL import Image
+import numpy as np
+import os
+import time
+import math
 
 VIDEO = "https://www.youtube.com/watch?v=S0P3hjM0DDM"
 
@@ -236,12 +243,21 @@ def generate_video_paths(json_file):
 
     return video_paths
 
-from moviepy.editor import VideoFileClip, CompositeVideoClip, vfx
-import os
-import time
-import math
+def custom_resize(clip, newsize):
+    def resize_frame(frame):
+        img = Image.fromarray(frame)
+        resized_img = img.resize(newsize, Image.LANCZOS)
+        return np.array(resized_img)
+    return clip.fl_image(resize_frame)
 
 def overlay_videos(base_video_path, overlay_paths, duration=None):
+    from moviepy.editor import VideoFileClip, CompositeVideoClip, vfx
+    import moviepy.video.fx.all as vfx
+    from PIL import Image
+    import numpy as np
+    import os
+    import time
+    import math    
     total_start_time = time.time()
 
     # Load the base video
@@ -258,6 +274,7 @@ def overlay_videos(base_video_path, overlay_paths, duration=None):
     
     # Calculate the size for overlay videos (1/4 of the base video size)
     overlay_width = base_video.w // 4
+    overlay_height = int(overlay_width * base_video.h / base_video.w)
     
     processing_start_time = time.time()
     
@@ -291,8 +308,8 @@ def overlay_videos(base_video_path, overlay_paths, duration=None):
     for i, (path, original_duration) in enumerate(zip(selected_overlay_paths, selected_overlay_durations)):
         clip = VideoFileClip(path)
         
-        # Resize the clip to 1/4 of the base video size
-        clip = clip.resize(width=overlay_width)
+        # Resize the clip using the custom resize function
+        clip = custom_resize(clip, (overlay_width, overlay_height))
         
         # Remove the black background
         clip = clip.fx(vfx.mask_color, color=[0, 0, 0], thr=10, s=5)
@@ -331,9 +348,8 @@ def overlay_videos(base_video_path, overlay_paths, duration=None):
     # Write the result to a file
     writing_start_time = time.time()
     final_clip.write_videofile(output_path, codec="libx264", audio_codec="aac")
-    writing_end_time = time.time()
+    writing_end_time = time.time()  # Uncomment this line
     writing_duration = writing_end_time - writing_start_time
-    
     # Close the clips
     base_video.close()
     for clip in overlay_clips:
@@ -354,4 +370,4 @@ def overlay_videos(base_video_path, overlay_paths, duration=None):
 
 if __name__ == "__main__":
     # generate_combined_data()
-    overlay_videos('S0P3hjM0DDM.mp4', generate_video_paths('combined_data.json'), duration=5)
+    overlay_videos('S0P3hjM0DDM.mp4', generate_video_paths('combined_data.json'), duration=None)
