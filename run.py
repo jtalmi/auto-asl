@@ -1,6 +1,5 @@
 import subprocess
 import time
-from pyngrok import ngrok
 import streamlit as st
 from streamlit_app import main  # Import the main function from streamlit_app.py
 
@@ -12,10 +11,8 @@ streamlit_process = subprocess.Popen(["streamlit", "run", "streamlit_app.py", f"
 time.sleep(5)
 
 # Use ngrok to create a public URL
-public_url = ngrok.connect(port)
 print(f"You can now view your Streamlit app in your browser.")
 print(f"Local URL: http://localhost:{port}")
-print(f"Network URL: {public_url}")
 
 # Run the main function in the notebook
 main()
@@ -27,4 +24,3 @@ try:
 except KeyboardInterrupt:
     print("Shutting down...")
     streamlit_process.terminate()
-    ngrok.kill()

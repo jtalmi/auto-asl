@@ -1,0 +1,1817 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "b1a06aff-b227-4c8f-a942-147982a19082",
+    "sha256": "8b1491ac2864d8b504021136d118faed36d2d034ccc701675418d3ddf22c0bf4",
+    "created": "2024-08-04T01:56:08.133Z",
+    "duration": 45.37175,
+    "channels": 1,
+    "models": [
+      "1ed36bac-f71c-4f3f-a31f-02fd6525c489"
+    ],
+    "model_info": {
+      "1ed36bac-f71c-4f3f-a31f-02fd6525c489": {
+        "name": "general",
+        "version": "2024-01-26.8851",
+        "arch": "base"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Welcome to our basic series. These videos have real English for low level beginners. Our teachers teach you words and expressions, you should know. All of these videos are helpful to improve your English, so never give up. It's important to watch these videos and also do some self study. Check any new words you don't understand in a dictionary, and try to always repeat what the teacher says. These videos can be difficult to understand at first, but keep watching. You will get better, you will improve. Let's get started.",
+            "confidence": 0.99658203,
+            "words": [
+              {
+                "word": "welcome",
+                "start": 3.32,
+                "end": 3.82,
+                "confidence": 0.99658203,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "Welcome"
+              },
+              {
+                "word": "to",
+                "start": 3.8799999,
+                "end": 4.04,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "our",
+                "start": 4.04,
+                "end": 4.2799997,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "our"
+              },
+              {
+                "word": "basic",
+                "start": 4.2799997,
+                "end": 4.7799997,
+                "confidence": 0.8647461,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "basic"
+              },
+              {
+                "word": "series",
+                "start": 4.8399997,
+                "end": 5.24,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "series."
+              },
+              {
+                "word": "these",
+                "start": 5.8799996,
+                "end": 6.2,
+                "confidence": 0.9946289,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "These"
+              },
+              {
+                "word": "videos",
+                "start": 6.2,
+                "end": 6.68,
+                "confidence": 0.9926758,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "have",
+                "start": 6.68,
+                "end": 6.92,
+                "confidence": 0.9946289,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "real",
+                "start": 6.92,
+                "end": 7.24,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "real"
+              },
+              {
+                "word": "english",
+                "start": 7.48,
+                "end": 7.98,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "English"
+              },
+              {
+                "word": "for",
+                "start": 8.2,
+                "end": 8.44,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "low",
+                "start": 8.44,
+                "end": 8.76,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "low"
+              },
+              {
+                "word": "level",
+                "start": 8.76,
+                "end": 9.26,
+                "confidence": 0.99365234,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "level"
+              },
+              {
+                "word": "beginners",
+                "start": 9.32,
+                "end": 9.559999,
+                "confidence": 0.9189453,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "beginners."
+              },
+              {
+                "word": "our",
+                "start": 10.450819,
+                "end": 10.84836,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "Our"
+              },
+              {
+                "word": "teachers",
+                "start": 10.84836,
+                "end": 11.166393,
+                "confidence": 0.8540039,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "teachers"
+              },
+              {
+                "word": "teach",
+                "start": 11.166393,
+                "end": 11.404918,
+                "confidence": 0.6430664,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "teach"
+              },
+              {
+                "word": "you",
+                "start": 11.404918,
+                "end": 11.643442,
+                "confidence": 0.9536133,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "words",
+                "start": 11.643442,
+                "end": 12.120491,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "words"
+              },
+              {
+                "word": "and",
+                "start": 12.120491,
+                "end": 12.59754,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "expressions",
+                "start": 12.59754,
+                "end": 13.07459,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "expressions,"
+              },
+              {
+                "word": "you",
+                "start": 13.631147,
+                "end": 13.790163,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "should",
+                "start": 13.790163,
+                "end": 14.028688,
+                "confidence": 0.9921875,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "should"
+              },
+              {
+                "word": "know",
+                "start": 14.028688,
+                "end": 14.267212,
+                "confidence": 0.98828125,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "know."
+              },
+              {
+                "word": "all",
+                "start": 15.062294,
+                "end": 15.141803,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "All"
+              },
+              {
+                "word": "of",
+                "start": 15.141803,
+                "end": 15.380327,
+                "confidence": 0.9946289,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "these",
+                "start": 15.380327,
+                "end": 15.69836,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "these"
+              },
+              {
+                "word": "videos",
+                "start": 15.69836,
+                "end": 16.17541,
+                "confidence": 0.99560547,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "are",
+                "start": 16.17541,
+                "end": 16.413933,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "helpful",
+                "start": 16.413933,
+                "end": 16.890984,
+                "confidence": 0.99316406,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "helpful"
+              },
+              {
+                "word": "to",
+                "start": 16.890984,
+                "end": 17.209015,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "improve",
+                "start": 17.209015,
+                "end": 17.44754,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "improve"
+              },
+              {
+                "word": "your",
+                "start": 17.44754,
+                "end": 17.686066,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "english",
+                "start": 17.845081,
+                "end": 18.004097,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "English,"
+              },
+              {
+                "word": "so",
+                "start": 18.481148,
+                "end": 18.719671,
+                "confidence": 0.98828125,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "never",
+                "start": 18.719671,
+                "end": 18.958195,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "never"
+              },
+              {
+                "word": "give",
+                "start": 18.958195,
+                "end": 19.117212,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "up",
+                "start": 19.117212,
+                "end": 19.27623,
+                "confidence": 0.8276367,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "up."
+              },
+              {
+                "word": "it's",
+                "start": 19.9285,
+                "end": 20.327137,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "important",
+                "start": 20.327137,
+                "end": 20.566319,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "important"
+              },
+              {
+                "word": "to",
+                "start": 20.566319,
+                "end": 20.8055,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "watch",
+                "start": 20.8055,
+                "end": 21.044682,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "watch"
+              },
+              {
+                "word": "these",
+                "start": 21.044682,
+                "end": 21.36359,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "these"
+              },
+              {
+                "word": "videos",
+                "start": 21.36359,
+                "end": 21.86359,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "and",
+                "start": 22.160864,
+                "end": 22.400045,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "also",
+                "start": 22.400045,
+                "end": 22.798681,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "also"
+              },
+              {
+                "word": "do",
+                "start": 22.798681,
+                "end": 23.037863,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "some",
+                "start": 23.037863,
+                "end": 23.356773,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "some"
+              },
+              {
+                "word": "self",
+                "start": 23.356773,
+                "end": 23.75541,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "self"
+              },
+              {
+                "word": "study",
+                "start": 23.75541,
+                "end": 24.074318,
+                "confidence": 0.95703125,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "study."
+              },
+              {
+                "word": "check",
+                "start": 24.712135,
+                "end": 25.031044,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "Check"
+              },
+              {
+                "word": "any",
+                "start": 25.031044,
+                "end": 25.270227,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "any"
+              },
+              {
+                "word": "new",
+                "start": 25.270227,
+                "end": 25.509409,
+                "confidence": 0.9863281,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "new"
+              },
+              {
+                "word": "words",
+                "start": 25.509409,
+                "end": 25.828318,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "words"
+              },
+              {
+                "word": "you",
+                "start": 25.828318,
+                "end": 25.987772,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "don't",
+                "start": 25.987772,
+                "end": 26.487772,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "understand",
+                "start": 26.545864,
+                "end": 27.024227,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "understand"
+              },
+              {
+                "word": "in",
+                "start": 27.024227,
+                "end": 27.183681,
+                "confidence": 0.9316406,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "a",
+                "start": 27.183681,
+                "end": 27.50259,
+                "confidence": 0.9355469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "dictionary",
+                "start": 27.50259,
+                "end": 27.821499,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "dictionary,"
+              },
+              {
+                "word": "and",
+                "start": 28.393917,
+                "end": 28.631752,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "try",
+                "start": 28.631752,
+                "end": 28.869587,
+                "confidence": 0.99072266,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "try"
+              },
+              {
+                "word": "to",
+                "start": 28.869587,
+                "end": 29.1867,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "always",
+                "start": 29.1867,
+                "end": 29.6867,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "always"
+              },
+              {
+                "word": "repeat",
+                "start": 29.900206,
+                "end": 30.400206,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "what",
+                "start": 30.534433,
+                "end": 30.772268,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "the",
+                "start": 30.772268,
+                "end": 31.08938,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "teacher",
+                "start": 31.08938,
+                "end": 31.327217,
+                "confidence": 0.98876953,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "teacher"
+              },
+              {
+                "word": "says",
+                "start": 31.327217,
+                "end": 31.64433,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "says."
+              },
+              {
+                "word": "these",
+                "start": 32.51639,
+                "end": 32.754227,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "These"
+              },
+              {
+                "word": "videos",
+                "start": 32.754227,
+                "end": 33.229897,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "can",
+                "start": 33.229897,
+                "end": 33.46773,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "be",
+                "start": 33.46773,
+                "end": 33.62629,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "difficult",
+                "start": 33.62629,
+                "end": 34.12629,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "difficult"
+              },
+              {
+                "word": "to",
+                "start": 34.181236,
+                "end": 34.656906,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "understand",
+                "start": 34.656906,
+                "end": 35.0533,
+                "confidence": 0.9995117,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "understand"
+              },
+              {
+                "word": "at",
+                "start": 35.0533,
+                "end": 35.291134,
+                "confidence": 0.9975586,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "first",
+                "start": 35.291134,
+                "end": 35.608246,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "first,"
+              },
+              {
+                "word": "but",
+                "start": 36.33771,
+                "end": 36.576187,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "keep",
+                "start": 36.576187,
+                "end": 36.81466,
+                "confidence": 0.99658203,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "keep"
+              },
+              {
+                "word": "watching",
+                "start": 36.81466,
+                "end": 37.21212,
+                "confidence": 0.99658203,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "watching."
+              },
+              {
+                "word": "you",
+                "start": 37.76856,
+                "end": 38.007034,
+                "confidence": 0.9892578,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "will",
+                "start": 38.007034,
+                "end": 38.245506,
+                "confidence": 0.96777344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "get",
+                "start": 38.245506,
+                "end": 38.483982,
+                "confidence": 0.9951172,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "better",
+                "start": 38.483982,
+                "end": 38.80195,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "better,"
+              },
+              {
+                "word": "you",
+                "start": 39.35839,
+                "end": 39.596863,
+                "confidence": 0.9868164,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "will",
+                "start": 39.596863,
+                "end": 39.994324,
+                "confidence": 0.95947266,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "improve",
+                "start": 39.994324,
+                "end": 40.312286,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "improve."
+              },
+              {
+                "word": "let's",
+                "start": 41.107204,
+                "end": 41.345676,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "Let's"
+              },
+              {
+                "word": "get",
+                "start": 41.345676,
+                "end": 41.584152,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "started",
+                "start": 41.584152,
+                "end": 41.98161,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "started."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 3.32,
+        "end": 5.24,
+        "confidence": 0.97021484,
+        "channel": 0,
+        "transcript": "Welcome to our basic series.",
+        "words": [
+          {
+            "word": "welcome",
+            "start": 3.32,
+            "end": 3.82,
+            "confidence": 0.99658203,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "Welcome"
+          },
+          {
+            "word": "to",
+            "start": 3.8799999,
+            "end": 4.04,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "our",
+            "start": 4.04,
+            "end": 4.2799997,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "our"
+          },
+          {
+            "word": "basic",
+            "start": 4.2799997,
+            "end": 4.7799997,
+            "confidence": 0.8647461,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "basic"
+          },
+          {
+            "word": "series",
+            "start": 4.8399997,
+            "end": 5.24,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "series."
+          }
+        ],
+        "speaker": 0,
+        "id": "6ef49be8-0a2e-4450-a2b0-13c3b20e89a8"
+      },
+      {
+        "start": 5.8799996,
+        "end": 9.559999,
+        "confidence": 0.9869792,
+        "channel": 0,
+        "transcript": "These videos have real English for low level beginners.",
+        "words": [
+          {
+            "word": "these",
+            "start": 5.8799996,
+            "end": 6.2,
+            "confidence": 0.9946289,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "These"
+          },
+          {
+            "word": "videos",
+            "start": 6.2,
+            "end": 6.68,
+            "confidence": 0.9926758,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "videos"
+          },
+          {
+            "word": "have",
+            "start": 6.68,
+            "end": 6.92,
+            "confidence": 0.9946289,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "have"
+          },
+          {
+            "word": "real",
+            "start": 6.92,
+            "end": 7.24,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "real"
+          },
+          {
+            "word": "english",
+            "start": 7.48,
+            "end": 7.98,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "English"
+          },
+          {
+            "word": "for",
+            "start": 8.2,
+            "end": 8.44,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "low",
+            "start": 8.44,
+            "end": 8.76,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "low"
+          },
+          {
+            "word": "level",
+            "start": 8.76,
+            "end": 9.26,
+            "confidence": 0.99365234,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "level"
+          },
+          {
+            "word": "beginners",
+            "start": 9.32,
+            "end": 9.559999,
+            "confidence": 0.9189453,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "beginners."
+          }
+        ],
+        "speaker": 0,
+        "id": "98b59f2f-a4ba-4b16-9cc9-4777751e9025"
+      },
+      {
+        "start": 10.450819,
+        "end": 13.07459,
+        "confidence": 0.92068917,
+        "channel": 0,
+        "transcript": "Our teachers teach you words and expressions,",
+        "words": [
+          {
+            "word": "our",
+            "start": 10.450819,
+            "end": 10.84836,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "Our"
+          },
+          {
+            "word": "teachers",
+            "start": 10.84836,
+            "end": 11.166393,
+            "confidence": 0.8540039,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "teachers"
+          },
+          {
+            "word": "teach",
+            "start": 11.166393,
+            "end": 11.404918,
+            "confidence": 0.6430664,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "teach"
+          },
+          {
+            "word": "you",
+            "start": 11.404918,
+            "end": 11.643442,
+            "confidence": 0.9536133,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "words",
+            "start": 11.643442,
+            "end": 12.120491,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "words"
+          },
+          {
+            "word": "and",
+            "start": 12.120491,
+            "end": 12.59754,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "expressions",
+            "start": 12.59754,
+            "end": 13.07459,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "expressions,"
+          }
+        ],
+        "speaker": 0,
+        "id": "7d4c7fde-ea4f-44c6-bdd6-7fd6f53d7d47"
+      },
+      {
+        "start": 13.631147,
+        "end": 14.267212,
+        "confidence": 0.99332684,
+        "channel": 0,
+        "transcript": "you should know.",
+        "words": [
+          {
+            "word": "you",
+            "start": 13.631147,
+            "end": 13.790163,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "should",
+            "start": 13.790163,
+            "end": 14.028688,
+            "confidence": 0.9921875,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "should"
+          },
+          {
+            "word": "know",
+            "start": 14.028688,
+            "end": 14.267212,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "know."
+          }
+        ],
+        "speaker": 0,
+        "id": "7ee8aed5-e066-48bc-b061-b261b21df157"
+      },
+      {
+        "start": 15.062294,
+        "end": 19.27623,
+        "confidence": 0.9849679,
+        "channel": 0,
+        "transcript": "All of these videos are helpful to improve your English, so never give up.",
+        "words": [
+          {
+            "word": "all",
+            "start": 15.062294,
+            "end": 15.141803,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "All"
+          },
+          {
+            "word": "of",
+            "start": 15.141803,
+            "end": 15.380327,
+            "confidence": 0.9946289,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "of"
+          },
+          {
+            "word": "these",
+            "start": 15.380327,
+            "end": 15.69836,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "these"
+          },
+          {
+            "word": "videos",
+            "start": 15.69836,
+            "end": 16.17541,
+            "confidence": 0.99560547,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "videos"
+          },
+          {
+            "word": "are",
+            "start": 16.17541,
+            "end": 16.413933,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "are"
+          },
+          {
+            "word": "helpful",
+            "start": 16.413933,
+            "end": 16.890984,
+            "confidence": 0.99316406,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "helpful"
+          },
+          {
+            "word": "to",
+            "start": 16.890984,
+            "end": 17.209015,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "improve",
+            "start": 17.209015,
+            "end": 17.44754,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "improve"
+          },
+          {
+            "word": "your",
+            "start": 17.44754,
+            "end": 17.686066,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "english",
+            "start": 17.845081,
+            "end": 18.004097,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "English,"
+          },
+          {
+            "word": "so",
+            "start": 18.481148,
+            "end": 18.719671,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "so"
+          },
+          {
+            "word": "never",
+            "start": 18.719671,
+            "end": 18.958195,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "never"
+          },
+          {
+            "word": "give",
+            "start": 18.958195,
+            "end": 19.117212,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "give"
+          },
+          {
+            "word": "up",
+            "start": 19.117212,
+            "end": 19.27623,
+            "confidence": 0.8276367,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "up."
+          }
+        ],
+        "speaker": 0,
+        "id": "14f60260-25ec-4ed7-a907-3a4bfa1833a9"
+      },
+      {
+        "start": 19.9285,
+        "end": 24.074318,
+        "confidence": 0.99519855,
+        "channel": 0,
+        "transcript": "It's important to watch these videos and also do some self study.",
+        "words": [
+          {
+            "word": "it's",
+            "start": 19.9285,
+            "end": 20.327137,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "It's"
+          },
+          {
+            "word": "important",
+            "start": 20.327137,
+            "end": 20.566319,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "important"
+          },
+          {
+            "word": "to",
+            "start": 20.566319,
+            "end": 20.8055,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "watch",
+            "start": 20.8055,
+            "end": 21.044682,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "watch"
+          },
+          {
+            "word": "these",
+            "start": 21.044682,
+            "end": 21.36359,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "these"
+          },
+          {
+            "word": "videos",
+            "start": 21.36359,
+            "end": 21.86359,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "videos"
+          },
+          {
+            "word": "and",
+            "start": 22.160864,
+            "end": 22.400045,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "also",
+            "start": 22.400045,
+            "end": 22.798681,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "also"
+          },
+          {
+            "word": "do",
+            "start": 22.798681,
+            "end": 23.037863,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "do"
+          },
+          {
+            "word": "some",
+            "start": 23.037863,
+            "end": 23.356773,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "some"
+          },
+          {
+            "word": "self",
+            "start": 23.356773,
+            "end": 23.75541,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "self"
+          },
+          {
+            "word": "study",
+            "start": 23.75541,
+            "end": 24.074318,
+            "confidence": 0.95703125,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "study."
+          }
+        ],
+        "speaker": 0,
+        "id": "c571dde0-ef1c-44bc-88b7-d4fb4a2cb0d5"
+      },
+      {
+        "start": 24.712135,
+        "end": 27.821499,
+        "confidence": 0.9849121,
+        "channel": 0,
+        "transcript": "Check any new words you don't understand in a dictionary,",
+        "words": [
+          {
+            "word": "check",
+            "start": 24.712135,
+            "end": 25.031044,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "Check"
+          },
+          {
+            "word": "any",
+            "start": 25.031044,
+            "end": 25.270227,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "any"
+          },
+          {
+            "word": "new",
+            "start": 25.270227,
+            "end": 25.509409,
+            "confidence": 0.9863281,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "new"
+          },
+          {
+            "word": "words",
+            "start": 25.509409,
+            "end": 25.828318,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "words"
+          },
+          {
+            "word": "you",
+            "start": 25.828318,
+            "end": 25.987772,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "don't",
+            "start": 25.987772,
+            "end": 26.487772,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "don't"
+          },
+          {
+            "word": "understand",
+            "start": 26.545864,
+            "end": 27.024227,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "understand"
+          },
+          {
+            "word": "in",
+            "start": 27.024227,
+            "end": 27.183681,
+            "confidence": 0.9316406,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "in"
+          },
+          {
+            "word": "a",
+            "start": 27.183681,
+            "end": 27.50259,
+            "confidence": 0.9355469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "dictionary",
+            "start": 27.50259,
+            "end": 27.821499,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "dictionary,"
+          }
+        ],
+        "speaker": 0,
+        "id": "2aa6748b-b7e2-4948-ad3c-b1d720715683"
+      },
+      {
+        "start": 28.393917,
+        "end": 31.64433,
+        "confidence": 0.99679905,
+        "channel": 0,
+        "transcript": "and try to always repeat what the teacher says.",
+        "words": [
+          {
+            "word": "and",
+            "start": 28.393917,
+            "end": 28.631752,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "try",
+            "start": 28.631752,
+            "end": 28.869587,
+            "confidence": 0.99072266,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "try"
+          },
+          {
+            "word": "to",
+            "start": 28.869587,
+            "end": 29.1867,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "always",
+            "start": 29.1867,
+            "end": 29.6867,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "always"
+          },
+          {
+            "word": "repeat",
+            "start": 29.900206,
+            "end": 30.400206,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "repeat"
+          },
+          {
+            "word": "what",
+            "start": 30.534433,
+            "end": 30.772268,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "what"
+          },
+          {
+            "word": "the",
+            "start": 30.772268,
+            "end": 31.08938,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "teacher",
+            "start": 31.08938,
+            "end": 31.327217,
+            "confidence": 0.98876953,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "teacher"
+          },
+          {
+            "word": "says",
+            "start": 31.327217,
+            "end": 31.64433,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "says."
+          }
+        ],
+        "speaker": 0,
+        "id": "e57cd6be-3dbe-4c5e-8b44-bb8eb29fcd5f"
+      },
+      {
+        "start": 32.51639,
+        "end": 35.608246,
+        "confidence": 0.9988064,
+        "channel": 0,
+        "transcript": "These videos can be difficult to understand at first,",
+        "words": [
+          {
+            "word": "these",
+            "start": 32.51639,
+            "end": 32.754227,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "These"
+          },
+          {
+            "word": "videos",
+            "start": 32.754227,
+            "end": 33.229897,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "videos"
+          },
+          {
+            "word": "can",
+            "start": 33.229897,
+            "end": 33.46773,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "can"
+          },
+          {
+            "word": "be",
+            "start": 33.46773,
+            "end": 33.62629,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "be"
+          },
+          {
+            "word": "difficult",
+            "start": 33.62629,
+            "end": 34.12629,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "difficult"
+          },
+          {
+            "word": "to",
+            "start": 34.181236,
+            "end": 34.656906,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "understand",
+            "start": 34.656906,
+            "end": 35.0533,
+            "confidence": 0.9995117,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "understand"
+          },
+          {
+            "word": "at",
+            "start": 35.0533,
+            "end": 35.291134,
+            "confidence": 0.9975586,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "at"
+          },
+          {
+            "word": "first",
+            "start": 35.291134,
+            "end": 35.608246,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "first,"
+          }
+        ],
+        "speaker": 0,
+        "id": "92dce716-89ec-4a74-b2c3-cef3b67ad848"
+      },
+      {
+        "start": 36.33771,
+        "end": 37.21212,
+        "confidence": 0.9967448,
+        "channel": 0,
+        "transcript": "but keep watching.",
+        "words": [
+          {
+            "word": "but",
+            "start": 36.33771,
+            "end": 36.576187,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "but"
+          },
+          {
+            "word": "keep",
+            "start": 36.576187,
+            "end": 36.81466,
+            "confidence": 0.99658203,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "keep"
+          },
+          {
+            "word": "watching",
+            "start": 36.81466,
+            "end": 37.21212,
+            "confidence": 0.99658203,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "watching."
+          }
+        ],
+        "speaker": 0,
+        "id": "cd8f1a15-78ba-4552-ac56-db95cb6e8b0c"
+      },
+      {
+        "start": 37.76856,
+        "end": 38.80195,
+        "confidence": 0.9873047,
+        "channel": 0,
+        "transcript": "You will get better,",
+        "words": [
+          {
+            "word": "you",
+            "start": 37.76856,
+            "end": 38.007034,
+            "confidence": 0.9892578,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "You"
+          },
+          {
+            "word": "will",
+            "start": 38.007034,
+            "end": 38.245506,
+            "confidence": 0.96777344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "will"
+          },
+          {
+            "word": "get",
+            "start": 38.245506,
+            "end": 38.483982,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "get"
+          },
+          {
+            "word": "better",
+            "start": 38.483982,
+            "end": 38.80195,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "better,"
+          }
+        ],
+        "speaker": 0,
+        "id": "2f54a7a2-0bf3-4d09-91f5-460f7227aec9"
+      },
+      {
+        "start": 39.35839,
+        "end": 40.312286,
+        "confidence": 0.9816081,
+        "channel": 0,
+        "transcript": "you will improve.",
+        "words": [
+          {
+            "word": "you",
+            "start": 39.35839,
+            "end": 39.596863,
+            "confidence": 0.9868164,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "will",
+            "start": 39.596863,
+            "end": 39.994324,
+            "confidence": 0.95947266,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "will"
+          },
+          {
+            "word": "improve",
+            "start": 39.994324,
+            "end": 40.312286,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "improve."
+          }
+        ],
+        "speaker": 0,
+        "id": "dd10b7b5-9d62-41b6-ad10-2725752d673b"
+      },
+      {
+        "start": 41.107204,
+        "end": 41.98161,
+        "confidence": 0.9983724,
+        "channel": 0,
+        "transcript": "Let's get started.",
+        "words": [
+          {
+            "word": "let's",
+            "start": 41.107204,
+            "end": 41.345676,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "Let's"
+          },
+          {
+            "word": "get",
+            "start": 41.345676,
+            "end": 41.584152,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "get"
+          },
+          {
+            "word": "started",
+            "start": 41.584152,
+            "end": 41.98161,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "started."
+          }
+        ],
+        "speaker": 0,
+        "id": "6db3a024-bc69-42f2-beec-eb0cf0299843"
+      }
+    ]
+  }
+}

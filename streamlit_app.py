@@ -18,7 +18,7 @@ from urllib.parse import urlparse, parse_qs
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import base64
-
+from main import generate_combined_data
 
 # Load environment variables
 load_dotenv()
@@ -144,15 +144,14 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
 
 def main():
     st.set_page_config(layout="centered")
-    st.title("YouTube Video Transcriber")
+    st.title("What's your ASL?")
 
-    col1, col2, col3 = st.columns([1,2,1])
-    with col2:
-        url = st.text_input("Enter YouTube URL")
+    url = st.text_input("Enter YouTube URL", value="https://www.youtube.com/watch?v=S0P3hjM0DDM")
+    process_button = st.button("Process Video")
 
     transcript_path = None  # Initialize transcript_path
 
-    if st.button("Process Video"):
+    if process_button:
         if url:
             try:
                 with st.spinner("Downloading video..."):
@@ -169,12 +168,23 @@ def main():
                     # Display video
                     st.video(video_path)
 
+                    # Generate combined data
+                    with st.spinner("Generating combined data..."):
+                        combined_data = generate_combined_data()
+                    
+                    # Create a hideable section for combined_data
+                    with st.expander("Show Combined Data"):
+                        st.json(combined_data)
+                    
+                    # Generate and display new video
+                    with st.spinner("Generating new video..."):
+                        new_video_path = generate_new_video(combined_data)
+                    st.video(new_video_path)
+
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
         else:
             st.warning("Please enter a YouTube URL")
 
-    return transcript_path  # Return the transcript_path
-
 if __name__ == "__main__":
-    transcript_path = main()
+    main()
