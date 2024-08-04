@@ -1,4 +1,7 @@
 from utils import * 
+import os
+
+VIDEO = "https://www.youtube.com/watch?v=S0P3hjM0DDM"
 
 GLOSS_TRANSLATION_SYSTEM_PROMPT = """
 You are an expert in ASL. Given an audio transcript, prepare a JSON structure that contains a list of sentences in plain English, as well as the list of ASL gloss sentences broken up into individual tokens.
@@ -32,7 +35,7 @@ book, drink, computer, before, chair, go, clothes, who, candy, cousin, deaf, fin
 
 PROMPT = """
 Transcript:
-{TRANSCRIPT}
+{}
 """
 
 EXAMPLE_RESPONSE = {
@@ -63,10 +66,36 @@ EXAMPLE_RESPONSE = {
 
 
 def load_df_vocab(filename = 'WLASL_v0.3.json'):
+    import pandas as pd
     df = pd.read_json(filename)
     return df
 
 import os
+
+def call_anthropic_api(transcript):
+    import anthropic 
+
+    # Initialize the Anthropic client
+    client = anthropic.Anthropic(
+        api_key=os.environ['ANTHROPIC_API_KEY'] # Replace with your actual API key
+    )
+
+    # Call the API
+    user_message = PROMPT.format(transcript)
+    print(user_message)
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20240620",
+        max_tokens=1000,
+        temperature=1,
+        system=GLOSS_TRANSLATION_SYSTEM_PROMPT,
+        messages=[
+            {"role": "user", "content": user_message}
+        ]
+    )
+
+    # Return the bot's message
+    return response.content[0].text
+
 
 def get_mp4_files(video_directory='data/videos'):
     mp4_files = [f for f in os.listdir(video_directory) if f.endswith('.mp4')]
@@ -163,19 +192,30 @@ def combine_videos_and_gloss(selected_videos, gloss_sentences):
     return combined_data
 
 
-if __name__ == "__main__":
+def generate_combined_data():
     import pandas as pd 
+    import json
+    with open("transcripts/S0P3hjM0DDM_transcript.json", "r") as f:
+        data = json.load(f)
+
+    transcript = data['results']['channels'][0]['alternatives'][0]['transcript']
+    response = call_anthropic_api(transcript)
+    json_response = json.loads(response)
+
+    new_sentences = json_response['new_sentences']
+    gloss_sentences = json_response['gloss']
+
     df_vocab = load_df_vocab()
-    sentence_videos, signer_count = get_sign_videos(EXAMPLE_RESPONSE['gloss'], df_vocab)
+    sentence_videos, signer_count = get_sign_videos(gloss_sentences, df_vocab)
     selected_videos = pick_videos(sentence_videos, signer_count)
     
     # Combine selected videos with gloss sentences
-    combined_data = combine_videos_and_gloss(selected_videos, EXAMPLE_RESPONSE['gloss'])
-    
-    import json
+    combined_data = combine_videos_and_gloss(selected_videos, gloss_sentences)
     
     with open('combined_data.json', 'w') as f:
         json.dump(combined_data, f, indent=4)
-    
     print("Combined data has been written to 'combined_data.json'")
+    return combined_data
 
+if __name__ == "__main__":
+    generate_combined_data()

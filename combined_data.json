@@ -139,7 +139,6 @@
         "gloss": [
             "teacher",
             "teach",
-            "you",
             "word",
             "sign",
             "you",
@@ -182,24 +181,6 @@
                 "url": "http://www.aslsearch.com/signs/videos/instruct.mp4",
                 "variation_id": 0,
                 "video_id": "57068"
-            },
-            {
-                "bbox": [
-                    347,
-                    34,
-                    873,
-                    720
-                ],
-                "fps": 25,
-                "frame_end": -1,
-                "frame_start": 1,
-                "instance_id": 1,
-                "signer_id": 118,
-                "source": "aslbrick",
-                "split": "test",
-                "url": "http://aslbricks.org/New/ASL-Videos/you.mp4",
-                "variation_id": 0,
-                "video_id": "69547"
             },
             {
                 "bbox": [
@@ -534,7 +515,6 @@
             "try",
             "always",
             "repeat",
-            "what",
             "teacher",
             "say"
         ],
@@ -702,24 +682,6 @@
                 "video_id": "02230"
             },
             {},
-            {
-                "bbox": [
-                    155,
-                    34,
-                    1067,
-                    720
-                ],
-                "fps": 25,
-                "frame_end": -1,
-                "frame_start": 1,
-                "instance_id": 1,
-                "signer_id": 118,
-                "source": "aslbrick",
-                "split": "val",
-                "url": "http://aslbricks.org/New/ASL-Videos/what.mp4",
-                "variation_id": 1,
-                "video_id": "69531"
-            },
             {
                 "bbox": [
                     38,
@@ -970,9 +932,28 @@
     },
     {
         "gloss": [
+            "we",
             "start"
         ],
         "videos": [
+            {
+                "bbox": [
+                    275,
+                    32,
+                    888,
+                    720
+                ],
+                "fps": 25,
+                "frame_end": -1,
+                "frame_start": 1,
+                "instance_id": 1,
+                "signer_id": 118,
+                "source": "aslbrick",
+                "split": "train",
+                "url": "http://aslbricks.org/New/ASL-Videos/we.mp4",
+                "variation_id": 0,
+                "video_id": "69527"
+            },
             {
                 "bbox": [
                     107,
